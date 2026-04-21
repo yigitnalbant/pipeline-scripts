@@ -51,4 +51,5 @@ jobs:
       - name: Deploy to S3
         run: |
           aws s3 sync app/ s3://${{ steps.tf_outputs.outputs.bucket }} --delete
+---
 :::
