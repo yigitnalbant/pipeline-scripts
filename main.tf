@@ -6,7 +6,7 @@ terraform {
       name = "bynalbant"
     }
   }
-
+}
 provider "aws" {
   region = "us-east-1"
 }
